@@ -1,0 +1,64 @@
+#Created by Constraints Editor (xc6slx9-tqg144-3) - 2012/11/05
+NET "clk" TNM_NET = clk;
+TIMESPEC TS_clk = PERIOD "clk" 50 MHz HIGH 50%;
+
+# PlanAhead Generated physical constraints 
+NET "clk" LOC = P56;
+NET "rst_n" LOC = P38;
+
+NET "cclk" LOC = P70;
+
+NET "led<0>" LOC = P134;
+NET "led<1>" LOC = P133;
+NET "led<2>" LOC = P132;
+NET "led<3>" LOC = P131;
+NET "led<4>" LOC = P127;
+NET "led<5>" LOC = P126;
+NET "led<6>" LOC = P124;
+NET "led<7>" LOC = P123;
+
+NET "spi_mosi" LOC = P44;
+NET "spi_miso" LOC = P45;
+NET "spi_ss" LOC = P48;
+NET "spi_sck" LOC = P43;
+NET "spi_channel<0>" LOC = P46;
+NET "spi_channel<1>" LOC = P61;
+NET "spi_channel<2>" LOC = P62;
+NET "spi_channel<3>" LOC = P65;
+
+NET "avr_tx" LOC = P55;
+NET "avr_rx" LOC = P59;
+NET "avr_rx_busy" LOC = P39;
+
+NET "R<1>" LOC = P12;
+NET "R<3>" LOC = P10;
+NET "R<5>" LOC = P8;
+NET "R<7>" LOC = P6;
+NET "R<14>" LOC = P2;
+NET "R<12>" LOC = P144;
+NET "R<10>" LOC = P142;
+NET "R<8>" LOC = P140; 
+NET "C<8>" LOC = P11;
+NET "C<10>" LOC = P9;
+NET "C<12>" LOC = P7;
+NET "C<14>" LOC = P5;
+NET "C<9>" LOC = P1;
+NET "C<11>" LOC = P143;
+NET "C<13>" LOC = P141;
+NET "C<15>" LOC = P139;
+NET "C<1>" LOC = P85;
+NET "C<3>" LOC = P88;
+NET "C<5>" LOC = P93;
+NET "C<7>" LOC = P95;
+NET "R<15>" LOC = P98;
+NET "R<13>" LOC = P100;
+NET "R<11>" LOC = P102;
+NET "R<9>" LOC = P105;
+NET "R<0>" LOC = P84;
+NET "R<2>" LOC = P87;
+NET "R<4>" LOC = P92;
+NET "R<6>" LOC = P94;
+NET "C<6>" LOC = P97;
+NET "C<4>" LOC = P99;
+NET "C<2>" LOC = P101;
+NET "C<0>" LOC = P104;
